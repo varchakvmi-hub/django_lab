@@ -1,0 +1,16 @@
+**Використані команди, методи та їх призначення**
+
+1. `python -m venv venv` — створює віртуальне середовище для проєкту.
+2. `.\venv\Scripts\Activate.ps1` — активує віртуальне середовище.
+3. `python -m pip install django` — встановлює Django.
+4. `python -m django --version` — показує версію Django.
+5. `django-admin startproject mysite .` — створює Django-проєкт.
+6. `python manage.py migrate` — створює необхідні таблиці в базі даних.
+7. `python manage.py runserver` — запускає локальний сервер для перевірки сайту.
+8. `git init` — створює Git-репозиторій.
+9. `git add .` — додає файли до підготовки коміту.
+10. `git commit -m "First Django project"` — зберігає зміни в історії Git.
+11. `git push -u origin main` — завантажує проєкт на GitHub.
+12. `path()` — задає маршрут URL у файлі `urls.py`.
+13. `admin.site.urls` — підключає маршрути адміністративної панелі Django.
+
